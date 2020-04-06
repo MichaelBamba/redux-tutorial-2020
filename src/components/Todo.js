@@ -3,6 +3,7 @@ import cx from "classnames";
 
 import { toggleTodo } from "../redux/actions";
 import { connect } from "react-redux";
+import VisibilityFilters from "./VisibilityFilters";
 
 const Todo = ({ todo, toggleTodo }) => (
   <li
